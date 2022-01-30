@@ -1,4 +1,4 @@
-# Hime-BotR
+# Hime-Bot
 >A discord bot written in typescript which features it's own built in api!
 
 ## Requirements:
