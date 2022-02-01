@@ -27,7 +27,7 @@ module.exports = {
           { name: 'Member Of:' , value: '``' + `${message.guild.name}` + '``' , inline: true },
       	)
       	.setTimestamp()
-      	.setFooter(`Requested By: ${message.author.tag}`, `${message.author.diplayAvatarURL()}`);
+      	.setFooter(`Requested By: ${message.author.tag}`, `${message.author.displayAvatarURL()}`);
 
         message.channel.send(profileEmbed)
       }
