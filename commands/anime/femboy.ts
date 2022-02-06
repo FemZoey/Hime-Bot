@@ -7,7 +7,7 @@ module.exports = {
     execute(message, args) {
         message.react('👍')
 
-        var number = Math.floor(Math.random() * 3) + 1;
+        var number = Math.floor(Math.random() * 15) + 1;
         const {image, artist, link } = require(`../../lib/fr/${number}.json`)
 
         const femboyEmbed = new MessageEmbed()
